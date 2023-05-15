@@ -30,3 +30,11 @@
 *.exe
 *.out
 *.app
+BUILD
+.mbed
+compile_commands.json
+.clangd
+.cache
+Servo
+mbed-lora-radio-drv
+mbed-os

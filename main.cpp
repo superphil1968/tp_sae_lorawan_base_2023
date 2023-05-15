@@ -241,7 +241,7 @@ static void receive_message()
     switch (port) {
         case 3: // control led
             printf("\n led=%x", (int)rx_buffer[0]);
-            if ((rx_buffer[0]-0x30)==0)
+            if ((rx_buffer[0]-0x30)==0)// ascii command for led 
           //  if (rx_buffer[0]==0)
                 iEtatAlarme=0;
             else 
